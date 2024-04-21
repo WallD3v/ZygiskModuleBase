@@ -2,7 +2,8 @@
 My ImGui Zygisk Module base for making a cheats
 
 ## Main files
-- idk)
+- /module/src/main/cpp/game.h
+  This file stores the library name and game package name
 
 ## How to use
 1. Install [Magisk](https://github.com/topjohnwu/Magisk) v24 or later and enable Zygisk
