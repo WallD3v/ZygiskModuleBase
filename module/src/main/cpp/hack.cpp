@@ -65,6 +65,10 @@ EGLBoolean hook_eglSwapBuffers(EGLDisplay dpy, EGLSurface surface) {
 
     ImGui::ShowDemoWindow();
 
+    ImGui::Begin("Onirium Mod", NULL);
+    ImGui::Text("Nothing...");
+    ImGui::End();
+
     ImGui::EndFrame();
     ImGui::Render();
     glViewport(0, 0, (int)io.DisplaySize.x, (int)io.DisplaySize.y);
