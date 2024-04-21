@@ -1,9 +1,9 @@
 ext {
-    moduleLibraryName = "imgui_modmenu"
-    magiskModuleId = "zygisk_imgui_modmenu"
-    moduleName = "ImGui ModMenu"
-    moduleAuthor = "AKNoryx28"
-    moduleDescription = "ImGui android menu."
+    moduleLibraryName = "onirium"
+    magiskModuleId = "onirium_mod"
+    moduleName = "OniriumMod"
+    moduleAuthor = "WallD3v"
+    moduleDescription = "No desc."
     moduleVersion = "v1.0.0"
-    moduleVersionCode = 1
+    moduleVersionCode = 100
 }
