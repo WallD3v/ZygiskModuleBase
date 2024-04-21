@@ -4,6 +4,8 @@ My ImGui Zygisk Module base for making a cheats
 ## Main files
 - /module/src/main/cpp/game.h
   This file stores the library name and game package name
+- /module.gradle
+  This file contains the main info about module. This info is visible in Magisk
 
 ## How to use
 1. Install [Magisk](https://github.com/topjohnwu/Magisk) v24 or later and enable Zygisk
