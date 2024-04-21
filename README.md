@@ -6,6 +6,8 @@ My ImGui Zygisk Module base for making a cheats
   This file stores the library name and game package name
 - /module.gradle
   This file contains the main info about module. This info is visible in Magisk
+- /module/src/main/cpp/hack.cpp
+  This is main file. It is contains hooks and other.
 
 ## How to use
 1. Install [Magisk](https://github.com/topjohnwu/Magisk) v24 or later and enable Zygisk
