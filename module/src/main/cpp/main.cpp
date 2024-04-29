@@ -14,9 +14,11 @@ public:
     void onLoad(Api *api, JNIEnv *env) override {
         this->api = api;
         this->env = env;
+        LOGI("OnLoad");
     }
 
     void preAppSpecialize(AppSpecializeArgs *args) override {
+        LOGI("preAppSpecialize");
         auto package_name = env->GetStringUTFChars(args->nice_name, nullptr);
         auto app_data_dir = env->GetStringUTFChars(args->app_data_dir, nullptr);
         preSpecialize(package_name, app_data_dir);
@@ -25,6 +27,7 @@ public:
     }
 
     void postAppSpecialize(const AppSpecializeArgs *) override {
+        LOGI("postAppSpecialize");
         if (enable_hack) {
             std::thread hack_thread(hack_prepare, game_data_dir);
             hack_thread.detach();
